@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="demo"></p>
+    <button onclick="dd()">shi</button>
+    <script>
+        
+        var fruits=["apple","banana","pear"];
+        document.getElementById('demo').innerHTML=fruits;
+        var dd = function(){
+            fruits[fruits.length]="Lemon";
+            document.getElementById('demo').innerHTML=fruits;
+        }
+        
+    </script> -->
+
+    <p id="demo"></p>
+    <button onclick="dd()">dd</button>
+    <script>
+        var fruits =["apple","banana","pear","lemon"];
+        document.getElementById("demo").innerHTML=fruits;
+        var dd =function(){
+             fruits.push("haha");
+             document.getElementById("demo").innerHTML=fruits;
+        }
+    </script>
+
+    <!-- <p id="demo"></p>
+    <script>
+        var fruits,i,long,final;
+        fruits =["apple","banana","pear","demon"];
+        final="<ul>"
+        for(i=0;i<fruits.length;i++){
+            final+="<li>"+fruits[i]+"</li>";
+        }
+        final+="</ul>";
+        document.getElementById("demo").innerHTML=final;
+    </script> -->
+
+
+</body>
+</html>
