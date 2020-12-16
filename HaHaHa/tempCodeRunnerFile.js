@@ -1,3 +1,5 @@
-let str = "return" + "`我是${name}`";
-let func = new Function("name",str)
-console.log(func("大桃子"))
+for (let i = 0; i < 10; i++) {
+    setTimeout(function () {
+        console.log("this is " + i)
+    }, 2000);
+}
